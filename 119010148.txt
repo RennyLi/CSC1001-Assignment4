@@ -1,0 +1,59 @@
+Q1£º
+1. First define a Node class.
+(1) Define the node field.
+(2) Define the pointer field.
+2. Define a linked list class.
+3. Define push_element function to add element at the first of the singly linked list.
+(1) First create a new node.
+(2) If the original linked list is empty, then the tail is the newest node.
+4. Define count_element function to calculate the list length.
+(1) If the current node is None, return 0.
+(2) Otherwise, call the function recursively.
+(3) Use try except to handle possible inappropriate input.
+5. I input five elements to the empty singly linked list: 25, 5, 46, 7, 3.56.
+
+Sample output (correct input):
+The length of the singly linked list is: 5
+
+Sample output (inappropriate input):
+Sorry, your input is invalid!
+The length of the singly linked list is: None
+
+Q2:
+1. Define a node class, including the value field and the pointer field.
+2. Define the linked queue class.
+3. Define print function to print the reference pointing to the first node of the linked list.
+4. Define getItem function to get the value of the item according to the index.
+5. Define setItem function to set the value of the item according to the index.
+6. Define the swapItem function to swap the values of the two items.
+7. Define quicksort function to sort the linked queue in ascending order.
+(1) Initialize the i and j values.
+(2) The general condition is that j cannot be larger than the length of the linked queue.
+(3) If j value is larger or equal to the base start value, then skip it.
+(4) Otherwise, if j value is smaller than the base start value, then swap the i and j items.
+8. In the main function, I enqueue 4 elements: 5, 8, 10, 11.
+
+Sample output:
+<__main__.Node object at 0x000001EECDF4A040>
+
+Q3:
+1. global variable "new" is the new rod that the disk will move into.
+2. Global variable "now" is the current rod that the disk will move out of.
+3. Define the "now_rod" function to return the current tower.
+4. Define the "next_rod" function to return the next tower the disk will move into.
+(1) If n is even, then all the disks can move to the C tower
+(2) If n is odd, then all the disks can move to the B tower
+(3) By changing tower name, we can move all the disks to tower C
+5. Define the move function to move disks between stacks(rods)
+6. Define the HanoiTower to solve the problem.
+7. When all the disks haven't been moved to rod C, then operate the solution.
+
+Sample output:
+Please enter the number of disks you want to move:3
+A --> C
+A --> B
+C --> B
+A --> C
+B --> A
+B --> C
+A --> C
